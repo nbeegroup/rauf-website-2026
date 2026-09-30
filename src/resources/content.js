@@ -25,8 +25,8 @@ export const content = {
     { number: '04', title: 'Free to flourish', text: 'Movement, storytelling, art, technology, and play give every kind of brilliance room to appear.', tone: 'ivory', icon: 'sun' },
   ],
   programs: [
-    { id: 'playschool', age: 'Ages 2\u20133', title: 'Playschool', text: 'A gentle, sensory-rich beginning that builds language, movement, confidence, and belonging.', details: ['Purposeful play', 'Circle time', 'Sensory discovery'], color: '#ff654f' },
-    { id: 'junior', age: 'Ages 4\u20136', title: 'Junior', text: 'An energetic international curriculum with strong foundations for the leap into primary school.', details: ['Montessori lessons', 'English & Bahasa', 'ICT & storytelling'], color: '#3157ff' },
+    { id: 'playschool', age: 'Ages 2\u20133', title: 'Playschool', text: 'A gentle, sensory-rich beginning that builds language, movement, confidence, and belonging.', details: ['Purposeful play', 'Circle time', 'Sensory discovery'], color: '#FDCE0B', image: '/images/Playschool_Student_1920x1080.jpg', imageAlt: 'A Ra\u2019uf playschool student exploring geometric blocks on a classroom mat' },
+    { id: 'junior', age: 'Ages 4\u20136', title: 'Junior', text: 'An energetic international curriculum with strong foundations for the leap into primary school.', details: ['Montessori lessons', 'English & Bahasa', 'ICT & storytelling'], color: '#0BAFB5', image: '/images/Junior_Student_1920x1080.jpg', imageAlt: 'A Ra\u2019uf junior student concentrating on a classroom colouring activity' },
   ],
   activities: ['Montessori', 'Super Huffaz', 'English & Bahasa', 'Islamic & Arabic', 'Movement studio', 'Creative technology'],
   schedule: [

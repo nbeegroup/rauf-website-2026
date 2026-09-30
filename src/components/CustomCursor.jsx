@@ -27,5 +27,5 @@ export default function CustomCursor() {
   }, [isFinePointer, reducedMotion, x, y])
 
   if (!isFinePointer || reducedMotion) return null
-  return <motion.div className="custom-cursor" style={{ x: springX, y: springY }} animate={{ width: mode === 'text' ? 72 : mode === 'magnetic' ? 54 : 18, height: mode === 'text' ? 72 : mode === 'magnetic' ? 54 : 18, opacity: mode === 'hidden' ? 0 : 1, backgroundColor: mode === 'default' ? '#c7f35b' : 'rgba(199, 243, 91, 0.12)' }} transition={{ type: 'spring', stiffness: 420, damping: 26 }} aria-hidden="true">{mode === 'text' && <span>VIEW</span>}</motion.div>
+  return <motion.div className="custom-cursor" style={{ x: springX, y: springY }} animate={{ width: mode === 'text' ? 72 : mode === 'magnetic' ? 54 : 18, height: mode === 'text' ? 72 : mode === 'magnetic' ? 54 : 18, opacity: mode === 'hidden' ? 0 : 1, backgroundColor: mode === 'default' ? '#FDCE0B' : 'rgba(253, 206, 11, 0.14)' }} transition={{ type: 'spring', stiffness: 420, damping: 26 }} aria-hidden="true">{mode === 'text' && <span>VIEW</span>}</motion.div>
 }

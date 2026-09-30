@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <header className="site-header">
       <div className="scroll-progress" style={{ transform: `scaleX(${currentScrollProgress})` }} />
-      <a className="brand" href="#home" aria-label="Ra'uf International Preschool home" data-cursor="magnetic"><span className="brand__mark">R</span><span className="brand__text"><strong>{content.brand.name}</strong><small>{content.brand.descriptor}</small></span></a>
+      <a className="brand" href="#home" aria-label="Ra'uf International Preschool home" data-cursor="magnetic"><img className="brand__logo" src="/logo-rauf.png" alt="Ra'uf International Preschool" /></a>
       <nav className="desktop-nav" aria-label="Primary navigation">{content.navigation.map((item) => <a key={item.href} href={item.href} data-cursor="magnetic">{item.label}</a>)}</nav>
       <a className="header-cta" href={content.contact.href} data-cursor="magnetic">Enrol now<span aria-hidden="true">↗</span></a>
       <button className="menu-toggle" type="button" aria-expanded={open} aria-controls="mobile-menu" aria-label={open ? 'Close menu' : 'Open menu'} onClick={() => setOpen((value) => !value)}>{open ? <X /> : <Menu />}</button>

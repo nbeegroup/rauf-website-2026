@@ -25,7 +25,9 @@ function Experience() {
       <div ref={appRef} className="relative min-h-screen overflow-clip bg-ink text-ivory">
         <a className="skip-link" href="#main-content">Skip to content</a>
         <div className="intro-wipe" aria-hidden="true">
-          <div className="intro-wipe__mark">R</div>
+          <div className="intro-wipe__mark">
+            <img src="/logo-rauf.png" alt="" />
+          </div>
           <p>Where wonder begins</p>
         </div>
         {!isMobile && !reducedMotion && (

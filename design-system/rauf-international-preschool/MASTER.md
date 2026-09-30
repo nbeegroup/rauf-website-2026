@@ -18,13 +18,28 @@
 
 | Role | Hex | CSS Variable |
 |------|-----|--------------|
-| Primary | `#1C1917` | `--color-primary` |
-| Secondary | `#44403C` | `--color-secondary` |
-| CTA/Accent | `#CA8A04` | `--color-cta` |
-| Background | `#FAFAF9` | `--color-background` |
-| Text | `#0C0A09` | `--color-text` |
+| Primary | `#0BAFB5` | `--color-primary` |
+| Secondary | `#55266F` | `--color-secondary` |
+| CTA/Accent | `#FDCE0B` | `--color-cta` |
+| Background | `#F8F7EF` | `--color-background` |
+| Text | `#082F31` | `--color-text` |
 
-**Color Notes:** Premium dark + gold accent
+**Color Notes:** Ra'uf brand teal is dominant, yellow is reserved for high-attention actions and highlights, and purple is used sparingly for supporting details. Deep teal and warm ivory provide accessible neutral surfaces.
+
+### Brand Color Usage
+
+- **Primary teal (`#0BAFB5`)**: major brand surfaces, large feature blocks, 3D hero materials, and enrollment moments.
+- **Accent yellow (`#FDCE0B`)**: primary CTAs, focus rings, progress indicators, and small attention cues.
+- **Secondary purple (`#55266F`)**: small decorative objects, separators, and pale-tint support panels only; never the dominant page color.
+- **Deep teal (`#082F31`)**: dark backgrounds and primary text.
+- **Warm ivory (`#F8F7EF`)**: light sections and logo backplates.
+
+### Corner System
+
+- Large media and feature cards: `20px–22px`.
+- Navigation and medium panels: `12px–18px`.
+- Compact tags and action buttons may remain fully rounded.
+- Full-width editorial sections remain edge-to-edge to preserve structure.
 
 ### Typography
 
@@ -68,10 +83,10 @@
 ```css
 /* Primary Button */
 .btn-primary {
-  background: #CA8A04;
-  color: white;
+  background: #FDCE0B;
+  color: #082F31;
   padding: 12px 24px;
-  border-radius: 8px;
+  border-radius: 999px;
   font-weight: 600;
   transition: all 200ms ease;
   cursor: pointer;
@@ -85,10 +100,10 @@
 /* Secondary Button */
 .btn-secondary {
   background: transparent;
-  color: #1C1917;
-  border: 2px solid #1C1917;
+  color: #082F31;
+  border: 2px solid #0BAFB5;
   padding: 12px 24px;
-  border-radius: 8px;
+  border-radius: 999px;
   font-weight: 600;
   transition: all 200ms ease;
   cursor: pointer;
@@ -99,8 +114,8 @@
 
 ```css
 .card {
-  background: #FAFAF9;
-  border-radius: 12px;
+  background: #F8F7EF;
+  border-radius: 20px;
   padding: 24px;
   box-shadow: var(--shadow-md);
   transition: all 200ms ease;
@@ -125,9 +140,9 @@
 }
 
 .input:focus {
-  border-color: #1C1917;
+  border-color: #0BAFB5;
   outline: none;
-  box-shadow: 0 0 0 3px #1C191720;
+  box-shadow: 0 0 0 3px #FDCE0B66;
 }
 ```
 
