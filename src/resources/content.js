@@ -4,14 +4,14 @@ export const content = {
     { label: 'Our world', href: '#world' },
     { label: 'Programs', href: '#programs' },
     { label: 'A day at Ra\u2019uf', href: '#day' },
-    { label: 'Families', href: '#families' },
+    { label: 'Testimonials', href: '#testimonials' },
   ],
   hero: {
     eyebrow: 'Play. Explore. Belong.',
     title: ['Small steps.', 'Big worlds.'],
     body: 'A joyful international preschool where children aged 2\u20136 grow through purposeful play, kind guidance, and the freedom to wonder.',
     primaryCta: 'Book a school tour', secondaryCta: 'Explore our approach', note: '2027 intake now open',
-    stats: [{ value: '2\u20136', label: 'years old' }, { value: '4.8', label: 'Google rating' }, { value: '3', label: 'care options' }],
+    stats: [{ value: '2\u20136', label: 'years old' }, { value: '5.0', label: 'Google rating' }, { value: '3', label: 'care options' }],
   },
   manifesto: {
     eyebrow: 'The Ra\u2019uf way',
@@ -35,8 +35,8 @@ export const content = {
     { name: 'Ra\u2019uf Dusk', time: '8:00 \u2014 18:30' },
   ],
   testimonial: {
-    quote: 'He enjoys going to school, which gives us peace of mind as parents. We can really see the improvement in his confidence and communication.',
-    author: 'A Ra\u2019uf parent', meta: 'Verified Google review',
+    quote: 'My son enjoys going to school and improves a lot even just in a few months. He socializes well and his motor skills improves as well.',
+    author: 'shera fadzil', meta: 'Verified Google review',
   },
   contact: { phone: '014-744 7223', href: 'https://ads.therauf.com/?utm_source=immersive-site&utm_medium=enrollkid', address: 'Eco Ardence, Setia Alam, Malaysia' },
 }

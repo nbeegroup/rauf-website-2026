@@ -28,7 +28,7 @@ function Experience() {
           <div className="intro-wipe__mark">
             <img src="/logo-rauf.png" alt="" />
           </div>
-          <p>Where wonder begins</p>
+          <p>Where learning feels like home.</p>
         </div>
         {!isMobile && !reducedMotion && (
           <Suspense fallback={null}>

@@ -19,7 +19,7 @@ export default function Hero() {
         <p className="hero-reveal hero-body">{content.hero.body}</p>
         <div className="hero-reveal hero-actions"><MagneticButton href={content.contact.href}>{content.hero.primaryCta}</MagneticButton><a className="text-link" href="#world" data-cursor="magnetic">{content.hero.secondaryCta}</a></div>
       </div>
-      <div className="hero-art hero-reveal" data-cursor="text"><img src="/images/Children Raising Jalur Gemilang.png" alt="Three preschool children raising the Malaysian flag beneath a bright blue sky" fetchPriority="high" /><div className="hero-art__label"><span>Now</span><strong>{content.hero.note}</strong></div></div>
+      <div className="hero-art hero-reveal" data-cursor="text"><img src="/images/Children Raising Jalur Gemilang.jpeg" alt="Three preschool children raising the Malaysian flag beneath a bright blue sky" fetchPriority="high" /><div className="hero-art__label"><span>Now</span><strong>{content.hero.note}</strong></div></div>
       <div className="hero-footer hero-reveal"><div className="scroll-note"><ArrowDown aria-hidden="true" /><span>Scroll to discover</span></div><div className="hero-stats">{content.hero.stats.map((stat) => <div key={stat.label}><strong>{stat.value}</strong><span>{stat.label}</span></div>)}</div></div>
     </section>
   )
